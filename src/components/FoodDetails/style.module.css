@@ -1,0 +1,64 @@
+.food_details_box {
+   position: sticky;
+   top: 20px;
+   height: calc(100vh - var(--nav-height) - var(--search-height));
+   overflow: auto;
+   padding: 0 15px 15px 0;
+   box-sizing: content-box;
+
+   & div:nth-child(1) {
+      flex: 1;
+   }
+
+   & div:nth-child(2) {
+      flex: 2;
+   }
+}
+
+.food_details_box__loading {
+   position: sticky;
+   top: 20px;
+   height: calc(100vh - var(--nav-height) - var(--search-height));
+   overflow: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.ingredients_list {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+   gap: 8px;
+
+   & li {
+      & div {
+         position: relative;
+         padding-bottom: 100%;
+         background-color: #a8a8a8;
+
+         & img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+      }
+   }
+}
+
+.recipe_img {
+   position: relative;
+   padding-bottom: 100%;
+   background-color: #a8a8a8;
+
+   & img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+}

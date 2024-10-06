@@ -1,0 +1,25 @@
+/* src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.custom_scroll::-webkit-scrollbar {
+   width: 7px;
+   border-radius: 4px;
+}
+.custom_scroll::-webkit-scrollbar-track {
+   background: #ede9e9;
+   width: 7px;
+   border-radius: 4px;
+}
+.custom_scroll::-webkit-scrollbar-thumb {
+   background-color: rgb(59 130 246);
+   border-radius: 4px;
+}
+/*only for firefox */
+@-moz-document url-prefix() {
+   .custom_scroll {
+      scrollbar-color: #4d4d4d #c5c5c5;
+      scrollbar-width: thin;
+   }
+}

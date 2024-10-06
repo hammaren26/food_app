@@ -1,0 +1,505 @@
+{
+  "vegetarian": true,
+  "vegan": false,
+  "glutenFree": false,
+  "dairyFree": false,
+  "veryHealthy": false,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 5,
+  "gaps": "no",
+  "preparationMinutes": null,
+  "cookingMinutes": null,
+  "aggregateLikes": 4,
+  "healthScore": 1,
+  "creditsText": "foodista.com",
+  "sourceName": "foodista.com",
+  "pricePerServing": 56.02,
+  "extendedIngredients": [
+    {
+      "id": 20081,
+      "aisle": "Baking",
+      "image": "flour.png",
+      "consistency": "SOLID",
+      "name": "all purpose flour",
+      "nameClean": "wheat flour",
+      "original": "2 cups all purpose flour",
+      "originalName": "all purpose flour",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 2.0, "unitShort": "cups", "unitLong": "cups" },
+        "metric": { "amount": 250.0, "unitShort": "g", "unitLong": "grams" }
+      }
+    },
+    {
+      "id": 18369,
+      "aisle": "Baking",
+      "image": "white-powder.jpg",
+      "consistency": "SOLID",
+      "name": "baking powder",
+      "nameClean": "baking powder",
+      "original": "2 1/2 teaspoons baking powder",
+      "originalName": "baking powder",
+      "amount": 2.5,
+      "unit": "teaspoons",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 2.5, "unitShort": "tsps", "unitLong": "teaspoons" },
+        "metric": {
+          "amount": 2.5,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1001,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "butter-sliced.jpg",
+      "consistency": "SOLID",
+      "name": "butter",
+      "nameClean": "butter",
+      "original": "Butter",
+      "originalName": "Butter",
+      "amount": 14.0,
+      "unit": "servings",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 14.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        },
+        "metric": {
+          "amount": 14.0,
+          "unitShort": "servings",
+          "unitLong": "servings"
+        }
+      }
+    },
+    {
+      "id": 1230,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "buttermilk.jpg",
+      "consistency": "SOLID",
+      "name": "buttermilk",
+      "nameClean": "buttermilk",
+      "original": "1 cup buttermilk",
+      "originalName": "buttermilk",
+      "amount": 1.0,
+      "unit": "cup",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 1.0, "unitShort": "cup", "unitLong": "cup" },
+        "metric": {
+          "amount": 240.0,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 1123,
+      "aisle": "Milk, Eggs, Other Dairy",
+      "image": "egg.png",
+      "consistency": "SOLID",
+      "name": "egg",
+      "nameClean": "egg",
+      "original": "1 egg",
+      "originalName": "egg",
+      "amount": 1.0,
+      "unit": "",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 1.0, "unitShort": "", "unitLong": "" },
+        "metric": { "amount": 1.0, "unitShort": "", "unitLong": "" }
+      }
+    },
+    {
+      "id": 9152,
+      "aisle": "Produce",
+      "image": "lemon-juice.jpg",
+      "consistency": "LIQUID",
+      "name": "lemon juice",
+      "nameClean": "lemon juice",
+      "original": "3 tablespoons fresh lemon juice",
+      "originalName": "fresh lemon juice",
+      "amount": 3.0,
+      "unit": "tablespoons",
+      "meta": ["fresh"],
+      "measures": {
+        "us": { "amount": 3.0, "unitShort": "Tbsps", "unitLong": "Tbsps" },
+        "metric": { "amount": 3.0, "unitShort": "Tbsps", "unitLong": "Tbsps" }
+      }
+    },
+    {
+      "id": 9156,
+      "aisle": "Produce",
+      "image": "zest-lemon.jpg",
+      "consistency": "SOLID",
+      "name": "lemon zest",
+      "nameClean": "lemon peel",
+      "original": "1/4 teaspoon lemon zest",
+      "originalName": "lemon zest",
+      "amount": 0.25,
+      "unit": "teaspoon",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 0.25, "unitShort": "tsps", "unitLong": "teaspoons" },
+        "metric": {
+          "amount": 0.25,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 19336,
+      "aisle": "Baking",
+      "image": "powdered-sugar.jpg",
+      "consistency": "SOLID",
+      "name": "powdered sugar",
+      "nameClean": "powdered sugar",
+      "original": "1/2 cup powdered sugar",
+      "originalName": "powdered sugar",
+      "amount": 0.5,
+      "unit": "cup",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 0.5, "unitShort": "cups", "unitLong": "cups" },
+        "metric": { "amount": 60.0, "unitShort": "g", "unitLong": "grams" }
+      }
+    },
+    {
+      "id": 2047,
+      "aisle": "Spices and Seasonings",
+      "image": "salt.jpg",
+      "consistency": "SOLID",
+      "name": "salt",
+      "nameClean": "table salt",
+      "original": "3/4 teaspoon salt",
+      "originalName": "salt",
+      "amount": 0.75,
+      "unit": "teaspoon",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 0.75, "unitShort": "tsps", "unitLong": "teaspoons" },
+        "metric": {
+          "amount": 0.75,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 2050,
+      "aisle": "Baking",
+      "image": "vanilla-extract.jpg",
+      "consistency": "LIQUID",
+      "name": "vanilla extract",
+      "nameClean": "vanilla extract",
+      "original": "2 teaspoons vanilla extract",
+      "originalName": "vanilla extract",
+      "amount": 2.0,
+      "unit": "teaspoons",
+      "meta": [],
+      "measures": {
+        "us": { "amount": 2.0, "unitShort": "tsps", "unitLong": "teaspoons" },
+        "metric": {
+          "amount": 2.0,
+          "unitShort": "tsps",
+          "unitLong": "teaspoons"
+        }
+      }
+    },
+    {
+      "id": 1009050,
+      "aisle": "Produce",
+      "image": "blueberries.jpg",
+      "consistency": "SOLID",
+      "name": "blueberries",
+      "nameClean": "wild blueberries",
+      "original": "2 cups wild blueberries (of course you can use regular instead!)",
+      "originalName": "wild blueberries (of course you can use regular instead!)",
+      "amount": 2.0,
+      "unit": "cups",
+      "meta": ["wild", "canned", "(of course you can use regular instead!)"],
+      "measures": {
+        "us": { "amount": 2.0, "unitShort": "cups", "unitLong": "cups" },
+        "metric": { "amount": 296.0, "unitShort": "g", "unitLong": "grams" }
+      }
+    }
+  ],
+  "id": 665329,
+  "title": "Wild Blueberry Lemon Muffins",
+  "readyInMinutes": 45,
+  "servings": 14,
+  "sourceUrl": "https://www.foodista.com/recipe/6LXPPDS3/wild-blueberry-lemon-muffins",
+  "image": "https://img.spoonacular.com/recipes/665329-556x370.jpg",
+  "imageType": "jpg",
+  "taste": {
+    "sweetness": 100.0,
+    "saltiness": 21.02,
+    "sourness": 68.87,
+    "bitterness": 44.4,
+    "savoriness": 13.22,
+    "fattiness": 57.06,
+    "spiciness": 0.0
+  },
+  "summary": "The recipe Wild Blueberry Lemon Muffins can be made <b>in approximately 45 minutes</b>. For <b>56 cents per serving</b>, you get a breakfast that serves 14. One portion of this dish contains approximately <b>3g of protein</b>, <b>5g of fat</b>, and a total of <b>147 calories</b>. 4 people were glad they tried this recipe. If you have vanillan extract, lemon juice, powdered sugar, and a few other ingredients on hand, you can make it. It is a good option if you're following a <b>lacto ovo vegetarian</b> diet. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 20%</b>, which is rather bad. Similar recipes include <a href=\"https://spoonacular.com/recipes/wild-blueberry-lemon-muffins-with-lemon-glaze-52082\">Wild Blueberry Lemon Muffins With Lemon Glaze</a>, <a href=\"https://spoonacular.com/recipes/wild-blueberry-lemon-cheesecake-mini-muffins-539265\">Wild Blueberry Lemon Cheesecake Mini Muffins</a>, and <a href=\"https://spoonacular.com/recipes/wild-blueberry-mini-muffins-159507\">Wild Blueberry Mini-Muffins</a>.",
+  "cuisines": [],
+  "dishTypes": ["morning meal", "brunch", "breakfast"],
+  "diets": ["lacto ovo vegetarian"],
+  "occasions": [],
+  "winePairing": { "pairedWines": [], "pairingText": "", "productMatches": [] },
+  "instructions": "<ol><li>Preheat oven to 375 degrees</li><li>Line 16 muffin cups with paper lines</li><li>Mash 1/8 cup sugar with lemon zest until sugar is moistened</li><li>In a medium-sized bowl, whisk together flour, baking powder, and salt</li><li>Using an electric mixer, beat 1 cup sugar and butter together</li><li>Beat in egg, butter milk, vanilla, and lemon sugar one at a time</li><li>Add flour mixture slowly until smooth</li><li>Mix in blueberries gently with a large spatula</li><li>Divide batter equally into muffin tins (filling about 3/4 of the way)</li><li>Bake for about 35 minutes, or until cake tester comes out clean</li><li>Allow muffins to cool and prepare glaze by combining lemon juice, zest, and powdered sugar</li><li>Place muffins on a wire rack and spoon about 1 tbsp of glaze on top of each muffin and let it slide over the sides of the muffin</li></ol>",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat oven to 375 degrees",
+          "ingredients": [],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "step": "Line 16 muffin cups with paper lines",
+          "ingredients": [],
+          "equipment": [
+            {
+              "id": 404676,
+              "name": "muffin liners",
+              "localizedName": "muffin liners",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/muffin-or-cupcake-forms.png"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "step": "Mash 1/8 cup sugar with lemon zest until sugar is moistened",
+          "ingredients": [
+            {
+              "id": 9156,
+              "name": "lemon zest",
+              "localizedName": "lemon zest",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/zest-lemon.jpg"
+            },
+            {
+              "id": 19335,
+              "name": "sugar",
+              "localizedName": "sugar",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/sugar-in-bowl.png"
+            }
+          ],
+          "equipment": []
+        },
+        {
+          "number": 4,
+          "step": "In a medium-sized bowl, whisk together flour, baking powder, and salt",
+          "ingredients": [
+            {
+              "id": 18369,
+              "name": "baking powder",
+              "localizedName": "baking powder",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/white-powder.jpg"
+            },
+            {
+              "id": 20081,
+              "name": "all purpose flour",
+              "localizedName": "all purpose flour",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+            },
+            {
+              "id": 2047,
+              "name": "salt",
+              "localizedName": "salt",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/salt.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404661,
+              "name": "whisk",
+              "localizedName": "whisk",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/whisk.png"
+            },
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "step": "Using an electric mixer, beat 1 cup sugar and butter together",
+          "ingredients": [
+            {
+              "id": 1001,
+              "name": "butter",
+              "localizedName": "butter",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/butter-sliced.jpg"
+            },
+            {
+              "id": 19335,
+              "name": "sugar",
+              "localizedName": "sugar",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/sugar-in-bowl.png"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404628,
+              "name": "hand mixer",
+              "localizedName": "hand mixer",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/hand-mixer.png"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "step": "Beat in egg, butter milk, vanilla, and lemon sugar one at a time",
+          "ingredients": [
+            {
+              "id": 1230,
+              "name": "buttermilk",
+              "localizedName": "buttermilk",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/buttermilk.jpg"
+            },
+            {
+              "id": 10119335,
+              "name": "lemon sugar",
+              "localizedName": "lemon sugar",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/no.jpg"
+            },
+            {
+              "id": 1052050,
+              "name": "vanilla",
+              "localizedName": "vanilla",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/vanilla.jpg"
+            },
+            {
+              "id": 1123,
+              "name": "egg",
+              "localizedName": "egg",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.png"
+            }
+          ],
+          "equipment": []
+        },
+        {
+          "number": 7,
+          "step": "Add flour mixture slowly until smooth",
+          "ingredients": [
+            {
+              "id": 20081,
+              "name": "all purpose flour",
+              "localizedName": "all purpose flour",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/flour.png"
+            }
+          ],
+          "equipment": []
+        },
+        {
+          "number": 8,
+          "step": "Mix in blueberries gently with a large spatula",
+          "ingredients": [
+            {
+              "id": 9050,
+              "name": "blueberries",
+              "localizedName": "blueberries",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/blueberries.jpg"
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404642,
+              "name": "spatula",
+              "localizedName": "spatula",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/spatula-or-turner.jpg"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "step": "Divide batter equally into muffin tins (filling about 3/4 of the way)",
+          "ingredients": [],
+          "equipment": [
+            {
+              "id": 404671,
+              "name": "muffin tray",
+              "localizedName": "muffin tray",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/muffin-tray.jpg"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "step": "Bake for about 35 minutes, or until cake tester comes out clean",
+          "ingredients": [],
+          "equipment": [
+            {
+              "id": 404784,
+              "name": "oven",
+              "localizedName": "oven",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/oven.jpg"
+            }
+          ],
+          "length": { "number": 35, "unit": "minutes" }
+        },
+        {
+          "number": 11,
+          "step": "Allow muffins to cool and prepare glaze by combining lemon juice, zest, and powdered sugar",
+          "ingredients": [
+            {
+              "id": 19336,
+              "name": "powdered sugar",
+              "localizedName": "powdered sugar",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/powdered-sugar.jpg"
+            },
+            {
+              "id": 9152,
+              "name": "lemon juice",
+              "localizedName": "lemon juice",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/lemon-juice.jpg"
+            },
+            { "id": 0, "name": "glaze", "localizedName": "glaze", "image": "" }
+          ],
+          "equipment": []
+        },
+        {
+          "number": 12,
+          "step": "Place muffins on a wire rack and spoon about 1 tbsp of glaze on top of each muffin and let it slide over the sides of the muffin",
+          "ingredients": [
+            { "id": 0, "name": "glaze", "localizedName": "glaze", "image": "" }
+          ],
+          "equipment": [
+            {
+              "id": 405900,
+              "name": "wire rack",
+              "localizedName": "wire rack",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/wire-rack.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 29.411563873291016,
+  "spoonacularSourceUrl": "https://spoonacular.com/wild-blueberry-lemon-muffins-665329"
+}

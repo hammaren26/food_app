@@ -1,0 +1,7 @@
+.grid_container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 25px;
+   align-items: flex-start;
+   padding: 0 25px 25px;
+}
